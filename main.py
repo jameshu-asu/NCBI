@@ -2,7 +2,7 @@ import subprocess
 import time
 import sys
 
-'''
+'''By James C. Hu
 Workflow script for accessing, qcing and parsing HAdV gene sequences from combined NCBI gb file.
 '''
 
