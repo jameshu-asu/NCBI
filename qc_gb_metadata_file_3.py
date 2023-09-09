@@ -6,7 +6,7 @@ import os
 This script will:
 1) Filter gb entries by match criteria
     str_match1 = 'Human|Homo|human|homo'
-    str_match2 = 'Adenovirus|Mastadenovirus|adenovirus|mastadenovirus'
+    str_match2 = 'Adenovirus|Mastadenovirus|adenovirus|mastadenovirus'https://github.com/jameshu-asu/NCBI/blob/master/qc_gb_metadata_file_3.py
 2) Filter gb entries by genome length
     min_genomoe_length = 30_000
 3) Deduplicate gb entries
@@ -63,7 +63,7 @@ df_qc4['Penton_allele'] = df_qc4['P_H_F_allele'].str.extract(r'P(\d+)')
 df_qc4['Hexon_allele'] = df_qc4['P_H_F_allele'].str.extract(r'H(\d+)')
 df_qc4['Fiber_allele'] = df_qc4['P_H_F_allele'].str.extract(r'F(\d+)')
 
-# extracting numeric type data from 'Source', 'Organism', and 'Sertoype' columns.
+# extracting numeric type data from 'Source', 'Organism', and 'Serotype' columns.
 df_qc5 = df_qc4.copy()
 df_qc5['Source'] = remove_chars(df_qc5, 'Source')
 df_qc5['Organism'] = remove_chars(df_qc5, 'Organism')
