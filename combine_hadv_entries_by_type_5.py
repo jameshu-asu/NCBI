@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from Bio import SeqIO
 
-'''
+'''By James C. Hu
 This script will:
 Use the final post qc accession list to extract the desired entries from the original gb file.
 '''
