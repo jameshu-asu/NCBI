@@ -1,7 +1,7 @@
 from Bio.Align.Applications import MafftCommandline
 import os
 
-'''
+'''By James C. Hu
 This script will:
 1) Make a directory to house MSA outputs
 2) Generate MSA (MAFFT) output for combined files.
