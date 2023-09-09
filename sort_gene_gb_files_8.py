@@ -3,7 +3,7 @@ import shutil
 from natsort import natsorted
 from Bio import SeqIO
 
-'''
+'''By James C. Hu
 This script will:
 1) Consolidate all fastas of the same gene into a single fasta file.
 2) Generate directoreis for all identified hadv genotypes
