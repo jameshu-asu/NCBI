@@ -13,7 +13,7 @@ def MSA_mafft(infile: str, output: str) -> None:
     input: Combined consenssus fasta file.
     output: aligned.fasta
     '''
-    mafft_exe = '/Users/chaoyihu/anaconda3/bin/mafft'
+    mafft_exe = '/Users/account/anaconda3/bin/mafft'
     mafft_cline = MafftCommandline(mafft_exe, input=infile)
     stdout, stderr = mafft_cline()
     with open(f'{output}', 'w') as handle:
