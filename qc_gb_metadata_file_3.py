@@ -2,7 +2,7 @@ import pandas as pd
 from math import nan
 import os
 
-'''
+'''By James C. Hu
 This script will:
 1) Filter gb entries by match criteria
     str_match1 = 'Human|Homo|human|homo'
