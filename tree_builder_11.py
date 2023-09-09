@@ -7,7 +7,7 @@ from Bio.Phylo.Consensus import majority_consensus
 import matplotlib.pyplot as plt
 import os
 
-'''
+'''By James C. Hu
 This script will:
 1) Generate png and newick tree file from MSA aligned fasta file.
 2) Generate bootstrapped png and newick tree file from MSA aligned fasta file.
