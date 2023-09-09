@@ -17,7 +17,7 @@ The individually grouped files will then be generated using the original full do
 '''
 
 #____NCBI_identification____#
-Entrez.email = 'chaoyihu@asu.edu'
+Entrez.email = 'email@domain.com'
 handle = Entrez.einfo()
 NCBI_db_list = Entrez.read(handle)
 print('Below is a list of NCBI databases:')
