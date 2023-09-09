@@ -3,7 +3,7 @@ from natsort import natsorted
 from Bio import SeqIO
 
 
-'''
+'''By James C. Hu
 This script will:
 1) Search through each hadv genotype directory to determine if there are more than 1 gene fasta.
 2) Merge the fasta files into a single fasta for MSA.
