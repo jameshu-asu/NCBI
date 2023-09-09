@@ -14,7 +14,7 @@ from natsort import natsorted
 import os
 from datetime import datetime
 
-'''
+'''By James C. Hu
 This script will:
 1) Attempt to extract all relevant product names from each CDS section.
 2) Filter the list of product names.
