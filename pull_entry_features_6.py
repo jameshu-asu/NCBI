@@ -19,7 +19,7 @@ This script will:
 1) Attempt to extract all relevant product names from each CDS section.
 2) Filter the list of product names.
 3) Use the product names to extract gene loci by nt position
-4) Extract and export the specific gene sequence using the locis from 3.
+4) Extract and export the specific gene sequence using the loci from 3.
 '''
 
 # adjust pandas terminal output
