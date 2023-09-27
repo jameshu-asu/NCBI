@@ -3,7 +3,7 @@ from math import nan
 
 '''
 This script will:
-1) Attempt to assing hadv genotype by matching data in the 'Source' field, with data from the 'Organism' field.
+1) Attempt to assign hadv genotype by matching data in the 'Source' field, with data from the 'Organism' field.
 2) Assign a temporary value for 'Source', 'Organism' missmatch.
 3) Attempt to assign type using data from the 'Strain' field using regex.
 4) Attempt to extract hadv type data from 'Title' field by removing all alphabetical characters using regex
