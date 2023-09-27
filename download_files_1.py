@@ -2,7 +2,6 @@ from Bio import Entrez
 
 '''This script will:
 1) Search for HAdV genbank files from specified NCBI databases using search terms.
-    * Currently using automated, iterative search method with a count variable and a while loop.
 2) Combine all like files into a single genbank file.
     * Search terms is a single comma-seperated string of ids.
 3) Generate a log file of how many entries were returned for each HAdV type.
