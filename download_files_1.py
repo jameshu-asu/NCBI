@@ -5,14 +5,6 @@ from Bio import Entrez
 2) Combine all like files into a single genbank file.
     * Search terms is a single comma-seperated string of ids.
 3) Generate a log file of how many entries were returned for each HAdV type.
-
-8.18.23
-V2 update
-Currently all the genbank entries are written to type specific gb files.
-This makes sorting entries that were downloaded into the wrong groups difficult to unentangle.
-
-V2 method will write all the entries into a single gb file that will be qcd.
-The individually grouped files will then be generated using the original full download gb file.
 '''
 
 #____NCBI_identification____#
