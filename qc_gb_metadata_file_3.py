@@ -6,7 +6,7 @@ import os
 This script will:
 1) Filter gb entries by match criteria
     str_match1 = 'Human|Homo|human|homo'
-    str_match2 = 'Adenovirus|Mastadenovirus|adenovirus|mastadenovirus'https://github.com/jameshu-asu/NCBI/blob/master/qc_gb_metadata_file_3.py
+    str_match2 = 'Adenovirus|Mastadenovirus|adenovirus|mastadenovirus'
 2) Filter gb entries by genome length
     min_genomoe_length = 30_000
 3) Deduplicate gb entries
