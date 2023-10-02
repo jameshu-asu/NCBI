@@ -63,7 +63,7 @@ while COUNT_START < COUNT_END:
                            rettype='gb',
                            retmode='text')
     text = handle.read()
-    # Search restuls will be written to a single gb file.
+    # Search results will be written to a single gb file.
     with open(gb_file, 'a') as f:
         f.write(text)
     COUNT_START += 1
