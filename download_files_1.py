@@ -1,6 +1,7 @@
 from Bio import Entrez
 
-'''This script will:
+'''By James C. Hu
+This script will:
 1) Search for HAdV genbank files from specified NCBI databases using search terms.
 2) Combine all like files into a single genbank file.
     * Search terms is a single comma-seperated string of ids.
