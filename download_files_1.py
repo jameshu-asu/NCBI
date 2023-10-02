@@ -38,7 +38,7 @@ with open(gb_file, 'w') as f:
     pass
 
 #____Accessing_NCBI_DB____#
-# Using count and a while loop to automate search/download of all 112 HAdV types
+# Using count and a while loop to automate search/download of all 113 HAdV types
 while COUNT_START < COUNT_END:
     print(f'HAdV type {COUNT_START}')
     handle = Entrez.esearch(db='nuccore',
